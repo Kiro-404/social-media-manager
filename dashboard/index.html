@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>مدير السوشيال ميديا</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="row between"><h1>مدير السوشيال ميديا</h1><button class="btn" id="logout" hidden>خروج</button></div>
+    <nav id="tabs" role="tablist">
+      <button role="tab" data-tab="overview" aria-selected="true">نظرة عامة</button>
+      <button role="tab" data-tab="setup">الإعداد</button>
+      <button role="tab" data-tab="trends">الترندات</button>
+      <button role="tab" data-tab="ideas">الأفكار</button>
+      <button role="tab" data-tab="library">المحتوى</button>
+      <button role="tab" data-tab="schedule">الجدولة</button>
+    </nav>
+  </header>
+
+  <div id="toast" role="status" aria-live="polite"></div>
+  <main id="view"></main>
+
+  <script src="app.js"></script>
+</body>
+</html>
