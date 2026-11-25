@@ -1,3 +1,13 @@
+---
+title: Social Media Manager
+emoji: 📱
+colorFrom: blue
+colorTo: green
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # Social Media Manager
 
 Open-source, zero-budget tool to manage **your own personal account** across
